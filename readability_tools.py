@@ -128,6 +128,10 @@ def get_words_list(input_text):
     :param input_text: string of text to be tokenised
     :return: array of tokenised words
     """
+    # REGEX is used to clear up instances of URLs and hyphenated words.
+    # URLs are counted as a single word to prevent disproportionately
+    # affecting the readability measures - the idea being that URLS are
+    # not read by users as regular text is.
     words_list = [word for word in (nltk.word_tokenize(input_text)) if
                   (word.isalnum() or re.search("'[a-zA-z]+", word)
                    or re.search("[a-zA-Z]+\.[a-zA-Z]+\.[a-zA-Z]+(\/[a-zA-Z0-9]*)", word)
