@@ -2,7 +2,7 @@
 
 _A set of python based readability analysis tools, developed a part of my final year undergraduate project_
 
-My final year undergraduate project focussed around the readability of privacy policies used by social media companies. I created a set of tools to calculate various readability measures and any additional functions needed to calculate these. The functions were developed with web-based privacy policies in mind but should be adaptable or provide a decent guideline of readability for most texts.
+My final year undergraduate project focused around the readability of privacy policies used by social media companies. I created a set of tools to calculate various readability measures and any additional functions needed to calculate these. The functions were developed with web-based privacy policies in mind but should be adaptable or provide a decent guideline of readability for most texts.
 
 Initially developed in 2019.
 
